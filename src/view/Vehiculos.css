@@ -1,0 +1,49 @@
+.Vehiculos {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Vehiculos img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .Vehiculos h2 {
+    color: white;
+  }
+  
+  .Vehiculos table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .Vehiculos th,
+  .Vehiculos td {
+    border: 1px solid white;
+    padding: 8px;
+    color: white;
+  }
+  
+  .Vehiculos th {
+    background-color: #333;
+    text-align: left;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+  }
+  

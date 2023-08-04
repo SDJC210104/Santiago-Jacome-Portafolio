@@ -1,0 +1,17 @@
+.show-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .icons-container {
+    display: flex;
+    gap: 20px; /* Espacio entre los iconos */
+    margin-top: 10px; /* Margen superior para separar los iconos del botón */
+  }
+  
+  .icon {
+    font-size: 30px; /* Tamaño de los iconos, puedes ajustarlo según tus preferencias */
+  }
+  

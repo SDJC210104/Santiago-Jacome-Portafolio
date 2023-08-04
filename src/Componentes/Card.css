@@ -1,0 +1,13 @@
+.Card {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #333;
+    background-color: #2E3347;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .Card h2 {
+    margin-bottom: 10px;
+  }
+  
