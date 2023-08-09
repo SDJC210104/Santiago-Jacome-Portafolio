@@ -29,7 +29,7 @@ const vehicles = [
         {
             name:"Lamborghini Sesto Elemento",
             description:"",
-            image:"https://pbs.twimg.com/media/B5dZ0QDCYAIi2U8.png:large",
+            image:"https://www.pngmart.com/files/22/Lamborghini-Sesto-Elemento-PNG-Photo.png",
             fichaT:{
                 Año: 2022,
                 Potencia: "570 HP",
@@ -37,6 +37,31 @@ const vehicles = [
                 Peso: "999 kg",
                 Precio:"$2.643.899 USD"
             }
+        },
+        {
+          name:"Toyota Supra MK4",
+          description: "",
+          image: "https://cdn131.picsart.com/280174452034211.png",
+          fichaT:
+          {
+            Año:2002,
+            Potencia:"330 HP",
+            VelocidadMaxima:"270 km/h",
+            Peso: "1600 kg",
+            Precio: "$50.000 USD"
+          }
+        },
+        {
+          name:"Nissan 370Z",
+          description: "",
+          image: "https://www.motortrend.com/uploads/sites/10/2015/11/2010-nissan-370-z-touring-coupe-angular-front.png?fit=around%7C875:492.1875",
+          fichaT: {
+            Año:2009.,
+            Potencia:"350 HP",
+            VelocidadMaxima: "270 km/h",
+            Peso:"1.600 kg",
+            Precio:"$20.000 USD"
+          }
         }
         
       ]
@@ -47,7 +72,7 @@ const vehicles = [
         {
           name: "KTM Super Duke 1290 R",
           description: "",
-          image: "https://imagenes.20minutos.es/files/og_thumbnail/uploads/imagenes/2021/11/27/ktm-1290-evo-2022.png",
+          image: "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_PERS_LIVO_1290-sdr-evo-22-wh-livo_%23SALL_%23AEPI_%23V1.png",
           fichaT: {
             Año: 2023,
             Potencia: "180 HP",
@@ -71,7 +96,7 @@ const vehicles = [
         {
             name:"TVS Raider 125",
             description: "",
-            image: "https://monterreymotos.com/wp-content/uploads/2022/03/DESTACADA-TVS-RAIDER-125.png",
+            image: "https://www.auteco.com.co/wp-content/uploads/2022/11/01-6.png",
             fichaT:{
                 Año:2023,
                 Potencia:"11 HP",
@@ -80,6 +105,32 @@ const vehicles = [
                 Precio:"$1.876 USD"
             }
             
+        },
+        {
+          name:"Victory Venom 14",
+          description:"",
+          image:"https://auteco.vteximg.com.br/arquivos/ids/222391-599-599/moto_victory_venon14_negro_gris_2022_foto01.png?v=638107818871830000",
+          fichaT:{
+            Año:2024 ,
+            Potencia: "13 HP",
+            VelocidadMaxima: "115 km/h",
+            Peso: "115 kg",
+            Precio: "$1981 USD"
+          }
+
+        },
+        {
+          name: "Suzuki Gixxer 150 FI",
+          description:"",
+          image:"https://premiumbikes.ph/wp-content/uploads/2023/02/Suzuki-Gixxer-FI.png",
+          fichaT:{
+            Año: 2024,
+            Potencia: "14 HP",
+            VelocidadMaxima: "120 km/h",
+            Peso:"140 kg",
+            Precio:"$2695 USD"
+          }
+
         }
       ]
     },
@@ -127,7 +178,7 @@ const vehicles = [
       ]
     },
     {
-      name: "Bote Deportivos",
+      name: "Botes Deportivos",
       models: [
         {
           name: "Apache Powerboat",

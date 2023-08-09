@@ -1,49 +1,71 @@
 .Vehiculos {
-    max-width: 90%;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Vehiculos img {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-  
-  .Vehiculos h2 {
-    color: white;
-  }
-  
-  .Vehiculos table {
-    margin: 20px auto;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  .Vehiculos th,
-  .Vehiculos td {
-    border: 1px solid white;
-    padding: 8px;
-    color: white;
-  }
-  
-  .Vehiculos th {
-    background-color: #333;
-    text-align: left;
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .button-container button {
-    margin: 0 10px;
-  }
-  
+  text-align: center;
+  padding: 20px;
+}
+
+.vehicle-slide {
+  text-align: center;
+  padding: 20px;
+}
+
+.vehicle-slide h2 {
+  margin-bottom: 10px;
+}
+
+.vehicle-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cotizar-button {
+  color: white;
+  background-color: purple;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.regresar-button {
+  color: white;
+  background-color: blue;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/* VehiculosView.css */
+
+.vehicle-slide {
+  text-align: center;
+  padding: 20px;
+}
+
+.vehicle-slide h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.vehicle-slide img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.vehicle-slide button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.vehicle-slide button a {
+  color: white;
+  text-decoration: none;
+}
+.vehicle-slide .cotizar-button {
+  font-size: 16px; /* Ajusta el tamaño deseado */
+}
+

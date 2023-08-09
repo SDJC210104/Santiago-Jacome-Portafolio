@@ -1,30 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import { createBrowserRouter,RouterProvider } from 'react-router-dom';
-import vehicles from './data/vehicules.js';
-import VehiculosView from './view/VehiculosView.jsx';
+import React from 'react';
+import { createRoot } from 'react-dom/client'; // Importa createRoot desde react-dom/client
+import App from './App.jsx';
+import { BrowserRouter } from 'react-router-dom';
+import './index.css';
 
-const routers = [
-  { 
-    path: "/",
-    element: <App/>,
-
-  },
-];
-
-vehicles.forEach((veh) =>{
-  routers.push({
-    path: veh.name,
-    element: <VehiculosView veh={veh}/>,
-  });
-});
-
-const router = createBrowserRouter(routers);
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+const rootElement = document.getElementById('root');
+createRoot(rootElement).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>,
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );

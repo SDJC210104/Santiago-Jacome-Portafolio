@@ -1,6 +1,6 @@
 .App{
   text-align: center;
-  color: white;
+  color: black;
   
 }
 
@@ -11,4 +11,20 @@
   justify-content: center;
   
 }
+.vehicle-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
+.vehicle-details {
+  margin-top: 10px;
+}
+
+.vehicle-image {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Mantén la proporción de la imagen */
+  max-height: 450px; /* Define una altura máxima para las imágenes */
+}
