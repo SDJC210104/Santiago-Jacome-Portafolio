@@ -13,6 +13,12 @@ function App() {
     setSelectedCategory(category);
   };
 
+  const handleQuoteClick = (vehicleName) => {
+    const message = `Estoy interesad@ en el vehículo: ${vehicleName}`;
+    const whatsappLink = `https://wa.me/3003800321?text=${encodeURIComponent(message)}`;
+    window.location.href = whatsappLink;
+  };
+
   return (
     <div className="App">
       <div className="centered-menu">
@@ -50,6 +56,12 @@ function App() {
                       </tbody>
                     </table>
                     <br /><br />
+                    <button
+                      className="quote-button"
+                      onClick={() => handleQuoteClick(model.name)}
+                    >
+                      Cotizar
+                    </button>
                   </div>
                 </div>
               </div>

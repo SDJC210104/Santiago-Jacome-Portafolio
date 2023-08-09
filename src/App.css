@@ -28,3 +28,23 @@
   height: auto; /* Mantén la proporción de la imagen */
   max-height: 450px; /* Define una altura máxima para las imágenes */
 }
+
+
+
+.quote-button {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.quote-button:hover {
+  background-color: #4851fc;
+}
+
+
+
